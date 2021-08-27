@@ -1,0 +1,14 @@
+nav {
+    display: flex;
+    background-color: lightseagreen;
+
+    .btn_nav {
+        margin: 16px 8px;
+        padding: 12px 6px;
+        text-decoration: none;
+        // border: 1px solid lightgray;
+        // background-color: lightseagreen;
+        color: white;
+        font-size: 16px;
+    }
+}

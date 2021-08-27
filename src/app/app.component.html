@@ -5,4 +5,7 @@
   <a [routerLink]="['/login']" class="btn_nav">
     Login
   </a>
+  <a *ngIf="logged" class="btn_nav">
+    Bienvenido: {{user}}
+  </a>
 </nav>
